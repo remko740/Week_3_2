@@ -20,7 +20,7 @@ class It_company:
         for dev in self.dev_list:
             if dev.name == dev_name:
                 self.dev_list.remove(dev)
-                return print('Employee was fired')
-            return print('No such employee found')
+                return 'Employee was fired'
+            return 'No such employee found'
 
 
